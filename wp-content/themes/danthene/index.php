@@ -19,7 +19,7 @@
         while (have_posts()) : the_post();
       ?>
         <div>
-          <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+          <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?>Testing</h3></a>
         </div>
       <?php
         endwhile;
