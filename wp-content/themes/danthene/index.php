@@ -20,6 +20,7 @@
       ?>
         <div>
           <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?>Testing</h3></a>
+          <h4>Test!</h4>
         </div>
       <?php
         endwhile;
@@ -28,8 +29,7 @@
         // Nothing
       endif;
       ?>
-
-    </main><!-- #main -->
+          </main><!-- #main -->
   </div><!-- #primary -->
 </div><!-- .wrap -->
 
