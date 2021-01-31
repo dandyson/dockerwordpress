@@ -5,3 +5,7 @@ Author URI:
 Description: Sample theme for Docker setup.
 Version: 0.1
 */
+
+body {
+    background-color: red;
+}
